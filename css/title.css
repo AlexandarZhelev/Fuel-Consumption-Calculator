@@ -1,0 +1,10 @@
+.title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #ebe8e8;
+}
+
+.title h1{
+    text-align: center;
+}

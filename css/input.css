@@ -1,0 +1,17 @@
+.inputUnits {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+    color: #ebe8e8;
+}
+
+.inputUnits input {
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+}
+
+input, textarea {
+    background-color: #e0e0e0; 
+}

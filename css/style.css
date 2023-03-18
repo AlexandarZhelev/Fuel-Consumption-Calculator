@@ -1,0 +1,23 @@
+@import url(title.css);
+@import url(input.css);
+@import url(calculation.css);
+
+body {
+    background: linear-gradient(90deg, rgba(0,5,36,1) 0%, rgba(86,6,113,1) 50%, rgba(0,5,88,1) 100%);
+    margin-left: 400px;
+    margin-right: 400px;    
+}
+
+.box {
+    border: 2px solid #262626;
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p#hint {
+    text-align: center;
+    color: #d6d6d6;
+}

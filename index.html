@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Fuel consumption calculator
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        </style>
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="title">
+                <h1>Fuel Consumption Calculator</h1>
+            </div>
+    
+            <div class="inputUnits">
+                <p>Distance driven (km): <input id="distance" type="number" onchange="calculateConsumption()"></p>
+                <p>Fuel Consumed (Liters): <input id="fuel" type="number" step="1" onchange="calculateConsumption()"></p>
+                <p>Price per liter fuel: <input id="price" type="number" step="0.01" onchange="calculateConsumption()"></p>
+            </div>
+    
+            <p id="hint">*Click somewhere after entering the data to see the results!</p>
+            <div class="calculation">
+                <h2 id="result"></h2>
+            </div>
+    
+            <script src="index.js"></script>
+        </div>
+       
+    </body>
+</html>
