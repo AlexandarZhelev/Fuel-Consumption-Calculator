@@ -8,6 +8,6 @@ function calculateConsumption(){
 
     document.getElementById('result').innerHTML = 
         "Consumption is " + consumed + 
-        " Litres/100km ( $" + pricePer100km + " / 100km ) <br><br>Total Fuel cost = " 
+        " Litres/100km ( $" + pricePer100km + " / 100km ) <br><br>Total Trip cost = " 
         + (fuel * price).toFixed(2);
     }
